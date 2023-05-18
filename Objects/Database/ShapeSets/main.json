@@ -1,0 +1,39 @@
+{
+   "partList": [
+      {
+         "box": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+         },
+         "color": "23e240",
+         "name": "Raycast Position Sensor",
+         "physicsMaterial": "Default",
+         "renderable": "$GAME_DATA/Objects/Renderable/Interactive/obj_interactive_sensor.rend",
+         "rotationSet": "PropZY",
+         "sticky": "+Y-Y-Z+X-X",
+         "scripted": {
+            "classname": "RaycastPositionSensor",
+            "filename": "$CONTENT_DATA/Scripts/RaycastPositionSensor.lua"
+         },
+         "uuid": "538c84d4-9d91-4980-bc92-f03956597f52"
+      },
+      {
+         "box": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+         },
+         "color": "eeeeee",
+         "name": "Output Port",
+         "physicsMaterial": "Default",
+         "renderable": "$GAME_DATA/Objects/Renderable/Interactive/obj_interactive_logicgate.rend",
+         "rotationSet": "PropYZ",
+         "scripted": {
+            "classname": "OutputPort",
+            "filename": "$CONTENT_DATA/Scripts/OutputPort.lua"
+         },
+         "uuid": "9afe5f72-4b83-422c-9dee-598e80ebbed0"
+      }
+   ]
+}
